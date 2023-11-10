@@ -64,5 +64,12 @@
     )
     (pin "1" (uuid e061ab1d-6e7a-45d6-8364-50554ea017b7))
     (pin "2" (uuid 2ca805d5-97b4-4c03-8b2c-b5a27f0f2559))
+    (instances
+      (project "a"
+        (path "/63c7d38a-b995-448a-bb92-186d24470b66/34d91a51-52b8-45c3-ad1f-173385eae0c3"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
   )
 )
