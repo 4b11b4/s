@@ -77,4 +77,35 @@
       )
     )
   )
+
+  (symbol (lib_id "Device:R") (at 154.94 86.995 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 789526bf-8954-4d33-9b7f-b7400e664bca)
+    (property "Reference" "Rx1" (at 157.48 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (at 157.48 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 153.162 86.995 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.94 86.995 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a4486320-8313-4d7d-bbf1-7398cec0558b))
+    (pin "2" (uuid f5fd7b06-84e6-4baf-84c4-a102348516e7))
+    (instances
+      (project "a"
+        (path "/63c7d38a-b995-448a-bb92-186d24470b66/34d91a51-52b8-45c3-ad1f-173385eae0c3"
+          (reference "Rx1") (unit 1)
+        )
+      )
+      (project "b"
+        (path "/d97b04af-f940-4b37-9b46-3257568904dc/6b195593-9816-40e7-97c0-c6e7d22a4e06"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
 )
