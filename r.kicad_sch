@@ -50,7 +50,7 @@
   (symbol (lib_id "Device:R") (at 142.875 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48a6d85b-f667-4a31-bcd5-1eb52cf709a4)
-    (property "Reference" "Rx" (at 144.78 86.36 0)
+    (property "Reference" "Rx1" (at 144.78 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 144.78 88.9 0)
@@ -67,7 +67,7 @@
     (instances
       (project "a"
         (path "/63c7d38a-b995-448a-bb92-186d24470b66/34d91a51-52b8-45c3-ad1f-173385eae0c3"
-          (reference "Rx") (unit 1)
+          (reference "Rx1") (unit 1)
         )
       )
       (project "b"
@@ -81,7 +81,7 @@
   (symbol (lib_id "Device:R") (at 154.94 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 789526bf-8954-4d33-9b7f-b7400e664bca)
-    (property "Reference" "Rx1" (at 157.48 86.36 0)
+    (property "Reference" "Rx2" (at 157.48 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 157.48 88.9 0)
@@ -98,7 +98,7 @@
     (instances
       (project "a"
         (path "/63c7d38a-b995-448a-bb92-186d24470b66/34d91a51-52b8-45c3-ad1f-173385eae0c3"
-          (reference "Rx1") (unit 1)
+          (reference "Rx2") (unit 1)
         )
       )
       (project "b"
