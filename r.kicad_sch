@@ -70,6 +70,11 @@
           (reference "R1") (unit 1)
         )
       )
+      (project "b"
+        (path "/d97b04af-f940-4b37-9b46-3257568904dc/6b195593-9816-40e7-97c0-c6e7d22a4e06"
+          (reference "R2") (unit 1)
+        )
+      )
     )
   )
 )
